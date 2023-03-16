@@ -1,6 +1,5 @@
 package com.fighter.test_team_project.utils
 
-import android.util.Log
 import com.fighter.test_team_project.data.Recipe
 
 class CsvParser {
@@ -19,8 +18,5 @@ class CsvParser {
             ingredientsCount = token[Constants.ColumnIndex.ingredientsCount].toInt(),
         )
     }
-
-
-
 
 }

@@ -1,7 +1,7 @@
 package com.fighter.test_team_project.utils
 
 object Constants {
-    const val FILE_NAME = "indi.csv"
+    const val FILE_NAME = "indianFood.csv"
     object ColumnIndex{
         const val recipeName = 0
         const val ingredients = 1

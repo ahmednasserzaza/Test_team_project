@@ -6,8 +6,8 @@ data class Recipe(
     val totalTime:Int,
     val cuisine:String,
     val instructions:String,
-    val url:String? = null,
+    val url:String,
     val cleanedIngredients:String,
-    val imageUrl:String? = null,
+    val imageUrl:String,
     val ingredientsCount:Int
 )
